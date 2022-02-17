@@ -49,9 +49,9 @@ fetch('http://localhost:3000/api/products')
     let newh3 = document.createElement("h3");
     let newp = document.createElement("p");
     newimg.src=product.imageUrl;
-    newh3.class="productName"; 
+    newh3.className="productName"; 
     newh3.innerHTML=product.name;
-    newp.class="productDescription";
+    newp.className="productDescription";
     newp.innerHTML=product.description;
     newa.href="product.html?id="+product._id;
     newarticle.appendChild (newimg);
